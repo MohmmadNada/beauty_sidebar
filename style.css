@@ -1,7 +1,10 @@
 :root {
     --withe: #ffffff
 }
-
+@keyframes translate_navbar {
+    to {transform: translateX(10%)}
+    from {transform: translateX(100%)}
+  }
 html,
 body {
     margin: 0;
@@ -27,6 +30,7 @@ nav {
 
 nav:hover {
     transform: translateX(0);
+    animation:2s translate_navbar forwards;
 }
 
 ul {
