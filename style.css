@@ -25,17 +25,17 @@ body {
 nav {
   background: hsl(0 0% 100% / 0.4);
   backdrop-filter: blur(0.1rem);
-  width: 15vw;
+  width: 5vw;
   height: 100vh;
   position: fixed;
-  left: 85%;
+  left: 95%;
   transform: translateX(100%);
 }
 
-@media only screen and (max-width: 821px) and (min-width: 5401x) {
+@media only screen and (max-width: 1000px){
   nav {
-    width: 5vw;
-    left: 95%;
+    width: 10vw;
+    left: 90%;
   }
 }
 
